@@ -15,7 +15,7 @@ The lab runs on a self-contained **SQLite in-memory database**, requiring zero e
 ---
 
 ## ✨ Key Features
-- **Zero-Config Database:** Automatically initializes an ephemeral SQLite in-memory database and seeds sample user records (`admin`, `alice`, `bob`).
+- **Zero-Config Database:** Automatically initializes an ephemeral SQLite in-memory database and seeds sample user records (`younes`,`admin`, `alice`, `bob`).
 - **Dual Execution Modes:**
   - **❌ Unsafe Mode:** Directly concatenates user input into the SQL query string, exposing the application to SQL injection.
   - **✅ Safe Mode:** Uses parameterized queries (`PDO::prepare()` and `execute()`), enforcing strict separation between SQL code and user data.
